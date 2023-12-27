@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+background-color: #171717;
+color: #fff;
+}
+
+.boxInicio{
+    display: flex;
+    width: auto;
+    height: 720px;
+    background: url(./assets/img/EntradaEditada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+    @media screen and (max-width: 768px) {
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.cuadroInicio {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    height: 500px;
+    width: 650px;
+    border: 2px solid white;
+    @media screen and (max-width: 768px) {
+        height: 400px;
+        width: 300px;
+        border: 2px solid white;
+        
+    }
+
+  }
+  
+  .tituloboxinicio {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .descripcionboxinicio {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    @media screen and (max-width: 768px) {
+      font-size: 15px;
+    }
+  }
+
+  .cuadroAsesor h2 {
+    font-size: 30px;
+    @media screen and (max-width: 768px) {
+      font-size: 15px;
+        
+    }
+  }
+  
+  .box2 {
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  
+  .cuadroAsesor {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    height: 200px;
+    width: 650px;
+    background-color: white;
+    color: black;
+    @media screen and (max-width: 768px) {
+        height: 200px;
+        width: 300px;
+        border: 2px solid white;
+        font-size: 12px;
+        
+    }
+  }
+
+  .contenedorprincipalterrenos {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    object-fit: none;
+    @media screen and (max-width: 768px) {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      align-content: center;
+      object-fit: none;
+        
+    }
+  }
+  
+  .imgterrenocont {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    object-fit: none;
+    
+    @media screen and (max-width: 768px) {
+      margin-left: auto;
+      margin-right: auto;
+      align-content: center;
+      object-fit: none;
+      height: 200px;
+      width: 300px;
+        
+    }
+  }
+
+  .imagenesterrenos h1 {
+    text-align: center;
+  }
+  
+  .contenedorimgterrenos {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tablaImagenes {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .imagenTerreno {
+    display: flex;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+  }
+
+  .boxAmenidades {
+    display: flex;
+    width: auto;
+    height: 720px;
+    background: url(../img/cuadroanimedidades.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    @media screen and (max-width: 768px) {
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+      
+    }
+  }
+
+
+  .boxAmenidades {
+    display: flex;
+    width: auto;
+    height: 720px;
+    background: url(./assets//img/cuadroanimedidades.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .cuadroAmenidades {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    height: 500px;
+    width: 650px;
+    border: 2px solid white;
+    @media screen and (max-width: 768px) {
+      height: 400px;
+      width: 300px;
+      border: 2px solid white;
+      
+    }
+  }
+
+  .tituloboxamenidades {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .descripcionamenidades {
+    font-size: 30px;
+    margin-bottom: 10px;
+    @media screen and (max-width: 768px) {
+      font-size: 15px;
+        
+    }
+  }
